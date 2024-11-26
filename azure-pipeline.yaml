@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Private-pool
 
 variables:
   azureSubscription: 'e5bfadfa-1fea-4b16-8eed-6ad15cc307d3'  # The name of the service connection
